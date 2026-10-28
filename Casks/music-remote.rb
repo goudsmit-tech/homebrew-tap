@@ -1,6 +1,6 @@
 cask "music-remote" do
-  version "0.1.0"
-  sha256 "5de0b3803d0ab4fb793fb8840ca84afb927a667d77d6968ad4e5bc9a6f03e218"
+  version "0.1.1"
+  sha256 "2db861d623ce047f960682b054d87f781efabfd7eaaa8b92ca2d1c4d60bdc48e"
 
   url "https://github.com/goudsmit-tech/MusicRemote/releases/download/v#{version}/MusicRemote-#{version}.dmg"
   name "Music Remote"
