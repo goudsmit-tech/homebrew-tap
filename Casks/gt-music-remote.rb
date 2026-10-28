@@ -1,4 +1,4 @@
-cask "music-remote" do
+cask "gt-music-remote" do
   version "0.1.1"
   sha256 "2db861d623ce047f960682b054d87f781efabfd7eaaa8b92ca2d1c4d60bdc48e"
 
@@ -13,6 +13,8 @@ cask "music-remote" do
   end
 
   depends_on macos: :sequoia
+  # Homebrew's own music-remote is a different app (Mario Guzman's) with the same .app name.
+  conflicts_with cask: "music-remote"
 
   app "Music Remote.app"
 
