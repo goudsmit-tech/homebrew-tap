@@ -1,6 +1,6 @@
 cask "gt-music-remote" do
-  version "0.2.0"
-  sha256 "085d50d681934c21e3c92dd40819c9c78a9b2db201eefc4511d8e88f3686f3d8"
+  version "0.2.1"
+  sha256 "747de1c54b36339dec5ddf6750d898cef695048f989715a10c25f8b09e98cb4a"
 
   url "https://github.com/goudsmit-tech/MusicRemote/releases/download/v#{version}/MusicRemote-#{version}.dmg"
   name "Music Remote"
